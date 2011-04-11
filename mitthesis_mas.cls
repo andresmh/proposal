@@ -387,8 +387,8 @@
 % holds the copyright.  This commands adds the copyright symbol to the
 % beginning, and puts the standard permission notice below.
 %% ``All rights reserved'' added.  Krishna Sethuraman (1990)
-\def\copyrightnotice#1{\copyrightnoticetext{\copyright\ #1.  All rights
-reserved.\par\permission}}
+\def\copyrightnotice#1{\copyrightnoticetext{\includegraphics[width=2.5mm]{figures/cc.pdf}\ #1.
+\par\permission}}
 
 % Occacionally you will need to exactly specify the text of the 
 % copyright notice.  The \copyrightnoticetext command is then useful.
