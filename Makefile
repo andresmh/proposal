@@ -1,12 +1,7 @@
-all: paper
+all: proposal
 
-paper: main.tex
+proposal: main.tex
 	pdflatex main && bibtex main && pdflatex main && pdflatex main
-
-
-#nobib: main.tex
-#	pdflatex main
-
 
 clean: 
 	rm -f *.dvi *.aux *.log *.blg *.toc *.bbl *~ *.lof *.lot *.out
