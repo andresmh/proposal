@@ -1,67 +1,90 @@
 \chapter{Background}
 
-% Summary of this chapter
-% TODO: should this be at the end of the section?
+Remixes, mash-ups, forks and derivative works are terms used to refer to a form of social production based on the idea of creating something out of existing creations.
+From Wikipedians editing each other's articles, to Free and Open Source programmers reusing existing code libriaries, to teenagers mixing their favorite videos on YouTube, are all examples of the wide range of remixing practices found today in the digital landscape.
 
-I build on existing work that places remixing in new forms of cultural and economic production \citep{benkler_wealth_2006,jenkins_convergence_2006,manovich_remix_2005,sinnreich_ethics_2009}, and describes some challenges that remixing poses to our existing legal and moral assumptions \citep{lessig_remix:_2008, posner_little_2007}.
+% TODO: add more references about the intersection of community and remixing
+I build on existing work that places remixing in new forms of economic and cultural production \citep{benkler_wealth_2006,jenkins_convergence_2006,manovich_remix_2005,sinnreich_ethics_2009}, and describes some challenges that remixing poses to our existing legal and moral assumptions \citep{lessig_remix:_2008, posner_little_2007}.
 
-Inspired by Situated Learning (e.g. \citet{lave_situated_1991}), I investigate remixing as a legitimate form of participation in a social learning environment.
-Furthermore,  I build on the work that advocates remixing as a new media literacy skill \citep{ito_hanging_2010, jenkins_confronting_2009, livingstone_taking_2008, perkel_copy_2008}.
-I look at the implications of remixing for the design of social computing systems by connecting to existing human-computer interaction research on systems for remixing and sharing videos \citep{diakopoulos_evolution_2007}, images \citep{seneviratne_policy-aware_2009}, music \citep{cheliotis_analysis_2009} and hypertext \citep{viegas_studying_2004}.
+% SELF: My work will build more on new media literacy than on situated learning so I am mentioning this first.
+Furthermore, I build on work that advocates remixing as a new media literacy skill \citep{ito_hanging_2010, jenkins_confronting_2009, livingstone_taking_2008, perkel_copy_2008} and that positions remixing as legitimate form of participation in social learning environments, building on learning philosophies such as Constructionism \citep{papert_mindstorms_1980} and Situated Learning \citep{lave_situated_1991}.
 
-% Is following paragraph better as an intro?
-Remixes, mash-ups, forks and derivative works are all names found in peer-production websites that refer to a form of social creativity based on the idea of building something new out of something old.
-From Wikipedians editing each other's articles, to open source programmers reusing existing code, to teenagers mixing their favorite videos on YouTube, these are all examples of the wide range of practices where remixing plays a central role.
+Finally, I look at the implications of remixing for the design of social computing systems. I do this by connecting to research on human-computer interaction that examines the participation patterns and the design of peer-production communities that engage people in sharing and remixing videos \citep{diakopoulos_evolution_2007,shaw_community_2006}, images \citep{seneviratne_policy-aware_2009}, music \citep{cheliotis_analysis_2009} and hypertext \citep{viegas_studying_2004}.
 
-\section{Cultural and Economic Production}
-Network information technologies have enabled social production to emerge as new form of economic production, emerging as an alternative to market and firms-based economies.
-People participating in these new economies, create and recreate new things with others using previous contributions to a ``commons''. 
-This alternative model is what \citet{benkler_coases_2002} called Commons-based Peer Production, where the ability to remix plays a central role.
+\section{Economic and Cultural Production}
 
-% TODO: Insert quote from Wealth of Networks.
-Similarly, culture has been influenced by these new forms of peer-to-peer participation where the boundaries between producers and consumers are blurrier, given rise to the the idea that we might live in what \citet{jenkins_convergence_2009} calls the Participatory Culture.
-This seemingly new creative practice where building new things by combining existing ones is not necessarily new. 
-Artists, especially postmodernist, have engaged in similar practices through ``appropriation art'', ``pastiche'', ``collage'' and ``bricolage''. 
-Also, folk culture and oral traditions very much rely on this idea of recreating and remixing what others have made. %Citation needed
-\citet{manovich_remix_2005} argues that remixing is an integral part of culture and that one can think of ancient Rome as a remix of ancient Greece.
-However, digital technologies have allowed for a  significant change in these age-old remixing practices: they have enabled people to create perfect copies and not only be inspired by other's creations but to remix the original works themselves \citep{sinnreich_ethics_2009}.
+Network information technologies have enabled social production to emerge as a new form of economic production, in parallel to markets and firms.
+People engaging in this new form of production, referred to as Commons-based Peer Production \citep{benkler_coases_2002}, rely on the availability of existing common resources that are often repurposed for the creation of new products that end up going back that communal source, for others to reuse as well.
 
-\section{Learning through Remixing}
-Remixing is a social activity by nature, hence some of the discussions around remixing and learning stem from learning theories that look at the social context in which learning happens.
+Culture has also been influenced by these new forms of peer-to-peer participation where the boundaries between producers and consumers blur, what \citet{jenkins_convergence_2006} calls Participatory Culture.
+
+This seemingly new creative practices, based on the idea of building new things by combining existing ones, is not necessarily new. 
+Artists, especially postmodernist, have engaged in similar practices through ``appropriation art'', ``pastiche'', ``collage'', ``sampling'' and ``bricolage''. 
+Furthermore, folk culture and oral traditions very much rely on this idea of recreating and remixing what others have made. %Citation need
+For example, as \citet{manovich_remix_2005} argues, remixing is an integral part of cultural evolution as one can see how ancient Rome was a remix of ancient Greece.
+Despite this common feeling that everything old is new again, the influence of digital technologies in remixing-like practices is undeniable. 
+These technologies have enabled people to a) create perfect copies and b) go beyond just being able to be inspired by other's creations but to actually remix the original works themselves \citep{sinnreich_ethics_2009}.
+
+\section{Learning and New Media Literacy}
+
+Remixing is a social activity by nature. Hence, some of the discussions around remixing and learning stem from learning theories that look at the social context in which learning happens.
 Situated Learning is one of these models that has advocated for legitimizing peripheral forms of participation, in particular in the context of apprenticeship-like learning environments \citep{lave_situated_1991}. 
-This apprenticeship model is also central to Constructionism, a learning philosophy based on the idea that some of the most valuable learning experiences occur when children engage in building personally meaningful objects in a social context \citet{papert}. 
+This apprenticeship model is also central to Constructionism \citep{papert_mindstorms_1980}, a learning philosophy based on the idea that some of the most valuable learning experiences occur when children engage in building personally meaningful objects in a social context. 
+% TODO: Look at how Bruckman cites this in the social context
+% NOTE: I'll move this next sentence to Scratch Online Community: Motivations
+% In examining, apprenticeships as a valuable learning model, \citet{papert_mindstorms_1980} uses as the example of the Brazilian Samba schools. These schools allow both novices and experts to learn from each other by building on each others work and expertise in an ad-hoc fashion.
+Building on this theory, \citet{turkle_epistemological_1990} argued for ``bricolage'' as a legitimate learning style, alternative to planning, where learners ``construct theories by arranging and rearranging, by negotiating and renegotiating with a set of well-known materials'', a model that fits well with the process of remixing.
 
-In arguing for this theory and using apprenticeships as a learning model, Papert presents the Brazilian Samba schools as exemplar learning environments. These schools, he argues, allowed both novices and experts to learn from each other by building on each others work and expertise. 
-\citet{papert_turkle} later argued for ``bricolage'' as a legitimate learning style, alternative to planning, where learners tinker and recreate previous works.
-Similarly,  \citet{wenger} stress the importance of also having access to materials that can help scaffold participation.
+Similarly, \citet{wenger_communities_1998} stressed the importance of also having access to a ``shared repertoire of communal resources'' to help shape a ``community of practice.''
 
-Cultural anthropologists and media scholars have documented the ways young people engage in prolific forms of creativity through remixing and have argued not only for its legitimization as a form of learning but also for its support and fostering as a core skill.
-For example, \citet{ito_yugi} described how Japanese children relate to media franchises such as Pokemon by not only being consumers of it but also engaging in remixing and recreating them by themselves and with others.
-\citet{livingstone_taking_2008} has described similar practices in the UK and presented the challenges and possibilities that these creative practices promise.
+More recently, cultural anthropologists and media scholars have documented the ways young people engage in creative practices through remixing. 
+For example, \citet{ito_technologies_2007} described how children relate to media franchises, such as Pókemon.
+She found that children not only consume Pókemon but they actively engage in remixing and recreating it, ``demonstrating that children can master highly esoteric content, customization, connoisseurship, remixing.''
+\citet{livingstone_taking_2008} has described similar practices when it comes to Internet usage and presented the challenges and possibilities that these creative practices promise.
 Similarly, \citet{jenkins_convergence_2006} has narrated how kids have become active participants in media creation by remixing their favorite literary characters in Harry Potter and creating rich fan fiction.
-Finally, \citet{jenkins_confronting_2009} has argued that the ability to remix, is a core competency that children must possess in order to be fluent with new media.
+Later on, \citet{jenkins_confronting_2009} argued that the ability to remix, is a core competency that children must possess in order to be fluent with new media.
 
 \section{Ethical and Legal Challenges}
-Creative appropriation or remixing has been highly controversial and confronted on moral and legal grounds. 
-\citet{jenkins_convergence_2006} describes how a young girl who created a Harry Potter fan fiction website was challenged by the company who owns the legal rights to book and the movie on the grounds of copyright infringement. 
-More recently, some instances of appropriation art have been under legal scrutiny. For example, photographer Preece was sued for his photographs of Marlborough ads that were large-size replicas of the original ads, his photographs were displayed on the Museum of Modern Art in New York and sold for millions of dollars.
-Similarly, he was sued by another photographer for taking his pictures and reusing them in what the original creator deemed outside the Fair Use provision.
-Countless number of video remixes on video sharing website YouTube have been taken down after they have automatically been identified as in violation of copyright laws for remixing videos or music. 
 
-Despite the often extreme sides on the issue of piracy and copyright, the law and ethics of remixing are still contested on a case by case basis. Legal scholar, \citet{posner_little_2007} has described how plagiarism is highly context-dependent and has also articulated a framework to assess the morality of different types of content reuse and copying based on issues of social expectations and deception. 
-\citet{benkler_wealth_2006} argues that if we want peer-production to flourish, we must figure out how to enable remixing. Similarly, 
-\citet{lessig_remix:2008} has narrated the cases of extreme copyright protection that, he argues, ``chill''
- innovation and creativity, especially among young people who engage in this practices more than their adult counterparts. Lessig and others proposed a new set of licenses under the brand of Creative Commons that would allow creators have more control of their copyright and release their work under more permissive licenses that would, at least in theory, foster amateur creativity.
+Creative appropriation or remixing has been confronted on moral and legal grounds.
+In his description children's fan fiction, \citet{jenkins_convergence_2006} narrates how the young girl who created an Harry Potter fan fiction website, was challenged by the company who owns the legal rights to book and the movie, on the grounds of copyright infringement.
+Realizing of their copyright extremism, the company dropped the legal action and reached an agreement.
 
-At the core of this discussion is the issue of how much people are willing to sacrifice their ``selfish'' and rational desires to gain economic gains, reputation or attention or to behave in more altruistic ways by relinquishing some of those individual desires for the greater good of a collective. 
+More recently, appropriation art has been under legal scrutiny \citep{greenberg_art_1992,landes_copyright_2000}. 
+For example, a federal court judge determined that photographer Richard Price violated Patrick Cariou’s copyrights for remixing a set of pictures by putting them on frames and in some cases, ``painting over some portions'' \citep{batts_patrick_2011}.
+
+Similarly, countless number of video remixes on video sharing website YouTube have been taken down under the Digital Millenium Copyright Act, for being identified as remixes of commercial videos \citep{seneviratne_remix_2010}.
+
+\citet{posner_little_2007} has articulated how plagiarism is highly context-dependent but that one can assess the ethics of appropriation by thinking through issues of deception, perception and social expectation.
+\citet{benkler_wealth_2006} argues that if we want peer-production to flourish, we must figure out how to enable remixing:
+``If we are to make this culture our own, render it legible, and make it into a new platform for our needs and conversations today, we must find a way to cut, paste, and remix present culture. And it is precisely this freedom that most directly challenges the laws written for the twentieth-century technology, economy, and cultural practice.''
+
+Similarly, \citet{lessig_remix:_2008} has narrated the cases of ``copyright extremism'' that, he argues, ``chill''
+ innovation and creativity, especially among young people who often engage in this practices.
+In response to such copyright extremism, the Creative Commons licenses, to allow creators have more control of their copyright and release their work under more permissive licenses that would foster amateur creativity.
+
+At the core of the ethics of remixing lies the issue of human cooperation, that is, the idea of how much people are willing to sacrifice their selfish and rational desires, to obtain monetary or reputation gains, to behave in altruistic and cooperative ways. 
 These questions lay at the core of literature on human cooperation which is beginning to be translated to social system design.
 
 \section{Social Computing System Design}
-The design of social computing systems have been the subject of study for some years in the fields of human-computer interaction and computer supported cooperative work. Some of these studies have focused on understanding what people do on online spaces that support peer-production as well as building systems to test out hypotheses. 
-The most widely documented systems where remixing or building on peer's work has flourished are Wikipedia and the Free and Open Source Software movement \citep{raymond, benkler, viegas, newbook, kittur}. 
-Researchers have looked, among other things, on the motivations for participating on this spaces as well as possible mechanisms that lead to the success of some of these projects.
-More specifically looking at the practice of remixing, the literature is somewhat sparse. 
-One study looked at the music remixing site ccMixter.org \citep{cheliotis_analysis_2009}, finding that remixing contests were an effective intervention to increase participation but that the people it attracted did not tend to be the core members of the community and hence were likely to leave after the contest was over.
-There is also a qualitative study on a video sharing and remixing website \citet{diakopoulos_evolution_2007} that looked at how participants developed certain norms for appropriating other people's work that were not encoded in the architecture of the website.
-\citet{shaw_community_2006} developed a video remixing platform and studied the nature of the most generative video segments looking to understand how to integrate automatic recommendation systems with user-driven suggestions.
-\citet{zang_mashup} did a study of mash-up creators finding that many of them lacked programming skills and found web mash-up to be a effective way of searching and aggregating information.
+
+Human-computer interaction research has studied the use and design of social computer systems that foster the type of cooperative practices that allow for remixing to take place.
+% Wikipedia
+Wikipedia has been perhaps the most widely researched of those systems. 
+For example, \citet{viegas_studying_2004} developed a visualization of Wikipedia edits that led to insights on the nature of the system and its editors' ability to collaborate. 
+Later on \citet{kittur_harnessing_2008} studied Wikipedia's articles quality in relationship with different types of coordination mechanisms.
+% Open Source
+Similarly, analyses on open source software development have led to insights at the mechanisms that lead to successful cooperative projects. 
+\citet{raymond_cathedral_1999}, for example, argued that one of the lessons to be learned from open source software programmers, is the importance of knowing what to rewrite and reuse. 
+He describes how Linus Trovalds (the creator of Linux) did not ``try to write Linux from scratch'' but rather ``he started by reusing code and ideas from Minix, a tiny Unix-like OS for PC clones.'' 
+
+% Tools
+Researchers have also developed web mash-up tools that allow people to remix web content \citep{bolin_automation_2005,wong_making_2007}.
+A study on one of those web mash-up tools found that many of its users lacked programming skills and found web mash-up to be a effective way of searching and aggregating information \citet{nan_zang_whats_2008}.
+
+% Media sharing and remixing commmunities
+More specifically on online communities for remixing, \citet{shaw_community_2006} developed a video remixing platform and studied the nature of the most generative video segments looking to understand how to integrate automatic recommendation systems with user-driven suggestions.
+\citet{diakopoulos_evolution_2007} analyzed user's participation in a video remixing website and documented how participants developed certain norms for appropriating other people's work that were not encoded in the architecture of the website.
+Additionally, a study of the music remixing online community ccMixter.org, looked at the impact of a remixing contest in the community dynamics.
+The study found that the contests increased participation among new comers but that they did not continue using the website after the contest was over \citep{cheliotis_analysis_2009}. 
+
