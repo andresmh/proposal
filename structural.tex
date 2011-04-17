@@ -107,12 +107,31 @@ while highly decomposable projects are associated with significant differences b
 I will also analyze in detail the practices of code obfuscation and the strategies people use to discourage decomposability of their projects.
 
 \subsection{Attributability}
-% Experiments with automatic vs credit. Responses. Results. Previous work. Future work:
-% Not always desired attribution.
-% - Notes 
+Creators often want to get credit for their work. 
+For example, the Creative Commons license originally had attribution as one of the options of their licenses but after analyzing several years of usage of the licenses they found that very few people waived the attribution clause. 
+This led them to include attribution by default in all their licenses (and create a separate license for completely public domain works) \citep{brown_announcing_2004}
+In order to further our understanding of attribution when desigining a remixing system it is important to know the role attribution plays in supporting cooperative behavior among members of a remxing online community.
+
+In Scratch, we have run some design experiments playing with attribution. 
+For example, we found evidence that suggests that about 20\% of creators object to seeing their projects remixed \citep{hill_responses_2010}.
+We also have anectdotal evidence that people who objected to remixing of their project referred to lack of credit as one of the problems.
+In order to address this,I added a mechanism that would automatically give credit to the creator of the original project whenever a remix was uploaded (e.g. ``Shared by John, based on Mary's project'').
+Using that design intervention as a natural experiment, we found evidence that suggests that people not only want to get credit but that they prefer the credit given by another person over the automatic attribution given by the system \cite{monroy-hernandez_computers_2011}. 
+
+\subsubsection{Proposed Work}
+I plan to extend this work with additional experiments.
+For example, one of the common complains against remixing is that the textual description of projects often gets copied from an original project onto its remixes.
+This often gives the wrong impression that those notes were written by the remixer rather than the original creator.
+I plan to add a mechanism to show a distinction between the notes written by the originator and those added by the remixer.
+These additional notes will come with a mechanism to encourage remixers to explain the ways in which the original project was changed.
+This will serve as a natural experiment to test out the additional value of not only giving binary representation of attribution but also give a qualifier explanation to the connection between a remix and the original project.
+
+% TODO: Other experiments: 
 % - Creator endorsed attribution.
+% - Diff
 
 \subsection{Openness}
+Openness is not onl
 % Across systems. Ethos explained. Creative commons version for kids. DeviatnArt conflicts
 % 
 
