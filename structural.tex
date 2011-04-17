@@ -12,7 +12,7 @@ I plan to do analyze these structural properties of the system using varied appr
 2) analyses the data corpus to understand the frequency of the scenarios and the relationships between the structural attributes,
 3) natural design experiments to study the effect of varying some of the structural dimensions.
 
-\begin{figure}
+\begin{figure} 
 \centering
 \includegraphics[width=3.25in]{figures/structure.pdf}
 \caption{Structural dimensions of a remixing system}
@@ -36,6 +36,7 @@ This need for finer granularity often stems from a desire to engage in sharing p
 I plan to look these practices in more detail to understand the ways in which a finer granularity mechanisms would help support different types of creative and collaborative learning practices beyond the the existing research that suggests that finer granularity is correlated to the number of people engaged in cooperative activities.
 
 In order to analyze the effect of explicitly supporting finer degree of granularity through a natural experiment, I plan to analyze the adoption ``Scratch Resources'' \footnote{Available at http://resources.scratchr.org}, a website created by members of the Scratch community to support sharing sprites, images and sounds. 
+% TODO link to Von Hippel at al on user innovation
 
 Some of my motivating questions are: 
 how common is sharing and remixing across the different levels of granularity available (even if not explicitly supported)?
@@ -46,38 +47,40 @@ how do different levels of granularuty support different levels of familiarity w
 
 \subsection{Modularity}
 \citet{benkler_coases_2002} defines modularity as the ``property of a project referring to the extent to which it can be broken down into smaller components, or modules, that can be independently and asynchronously produced before they are assembled into a whole.''
-For the purpose of this work, I will separate the two aspects of modularity described above by separating what happens before and after a project is shared:
-a) the ease of \emph{decomposing} an already shared project into smaller components and 
-b) the ease of \emph{remixing and integrating} such components into new creations.
+For the purpose of this work, I will separate two different aspects of modularity:
+1. The ease of \emph{integrating} such components into new creations or remixes.
+2. The ease of \emph{decomposing} an existing project into smaller components, typically for the purpose of remixing.
+In this section I plan to analyze the term ``modularity'' by focusing on the first aspect.
+In the next section, I will focuson the second aspect under the term ``decomposability''.
 
-In this section of the analysis, I plan to frame the analysis of ``modularity'' by focusing on the ``ease of remixing'' a component such as a sprite, script, image or sound. 
-The next section will focus on the ease of decomposing a compiled project.
+\subsection{Proposed Work}
+There are some components or projects that can be more easily integrated into new projects. 
+One of the questions I am intersted in exploring is what makes some components more modular than others.
 
-I plan to analyze this by examining the attributes of remixed components. 
-I will start by analyzing the sample components that come pre-installed with Scratch.
-For example, Scratch comes with a sprite called ``jetpack girl'' which consists of five costumes and five sounds of a flying character that can be controlled with the keyboard.
+For example, an image generated programmatically might be harder to integrate than one in bitmap format. 
+A module that representing a cultural icon, such as Mario\footnote{Mario is a character in a popular video game called Mario Bros. from Nintendo Inc.}, is perhaps easier to integrate into other projects than an image of a less well-known character.
+However, there are situation when new subcultural icons emerge within the Scratch community.
+For example, a character called Maki-Tak created by a community member from New Zealand started a whole genre of projects, called Takis.
+These projects use adaptations of that lizard. 
+% Other examples: Mr happy Man
+There are also situations where some components are remixed despite their internal complexity which might indicate that these could be built in a way that their internal complexity is hidden and remixing them is easy. 
+For example there is a sprite created by an advanced Scratch user that represented a physics simulation of a string. 
+This project was later remixed in a project where it represented a necklace.
+
+I plan to operationalize the assessment of modularity by measuring its adoption through number of remixes.
+The assumption will be that more modular components are remixed more.
+I will examine this in two types of components:  ``samples'' and ``community-generated''.
+% Sample components are those that come pre-installed with Scratch. For example, sample images, sounds, sprites and projects in some cases.
+% Community-generated are those created by end-users.
+For example, ``jetpack girl'' is a sample script consisting of five costumes and  sounds for a flying character that can be controlled with the keyboard.
 The code of the sprite comes with an invitation to remix: ``Import me into your own project'' and an explanation on how to use it ``arrow keys make me fly''.
-This sprite has been remixed several times.
-I intend to analyze the set of sprites, images and sounds that come with Scratch and study how modular they are by looking at how often and it what ways they get remixed.
-I plan to analyze the ways different modules are remixed, the types of users who do so and at what point in their Scratch life they do remix them.
-I then plan to analyze components that are generated by the community.
+These sample components are not only sprites, there are also hundreds of images and sounds that come with Scratch such as photos of people, animals, things, etc.
+In addition to these sample components, there are thousands of components created by community members that are remixed and that can be found in places like Scratch Resources and Scratch projects that explicitly state that they include sprites, images and sounds for others to reuse.
 
-
-% 2. modularity: both technical and sociocultural. 
-% Description:
-% For example, a ball that has gravity implemented in it, can be easily repurpiosed while a complicated interconnected set of sprites and scipts in a complexly prorgammed projects are much harder to detach and modularized. 
-%
-% Example: 
-% - Samples: sample sprites
-% - Necklace: physics simulation of a string turned into a necklace. Alterative less modular version: images generated by code.
-% - MHM, MakiTak: cultural modularity, reused in multiple scenarios
-%
-% Proposed work:
-% - Look at cultural and technical modularity
-% - Most modular pieces are those most remixed? Not most modular projects?
-% - More modular, less learning?
-% - More modular, more used?
-% - Individual differences approaches to modularity: cut
+The type of questions I will try to answer are then are:
+1. What technical or cultural attributes are linked with component modularity? 
+2. Are more modular components used more often by newcomers and do they provide scaffolding in their learning of Scratch programming?
+3. Are community-generated components more often created by advanced users?
 
 \subsection{Decomposability}
 % 3. decomposability.
