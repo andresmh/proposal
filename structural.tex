@@ -53,7 +53,7 @@ For the purpose of this work, I will separate two different aspects of modularit
 In this section I plan to analyze the term ``modularity'' by focusing on the first aspect.
 In the next section, I will focuson the second aspect under the term ``decomposability''.
 
-\subsection{Proposed Work}
+\subsubsection{Proposed Work}
 There are some components or projects that can be more easily integrated into new projects. 
 One of the questions I am intersted in exploring is what makes some components more modular than others.
 
@@ -83,15 +83,28 @@ The type of questions I will try to answer are then are:
 3. Are community-generated components more often created by advanced users?
 
 \subsection{Decomposability}
-% 3. decomposability.
-% One of the differences between digital media and its predecesors is that it is often possible to break apart a digital creation into its components. This decomposability is not always possible however. In some cases, there are technical or legal barriers to doing so. For example, a video on YouTube is not easy to decompose into the parts that were used to making it before the editing since the source files are not uploaded while on sites like Aviary, an image can be taken apart in all its compoonents used. With software this issue has been at the forefront of the Free Software movement that advocates for complete decomposability via providing the source code along with its compiled version. 
-% Using Scratch as the place to study this, we can observe that projects can be decomposed to its original parts except for its images and sounds that once.
-% Rasterization, no layers, no vectors.
-% Code is all decomposable to its smallest form which is the blocks.
-% Analysis of decomposability of remixes. 
-% Practices to prevent decomposing: obfuscation. Anti-remixing. 
-% Decomposability is enforced.
-% People want to share compiled code but not its components.
+Building on the concept of modularity examined before, in this section I will examine decomposability as the ease of decomposing a compiled project.
+Decomposability is the ease of breaking something apart for the purpose of remixing it.
+Therefore decomposability depends on the internal complexity of a project, which in itself is dependent on the expertise of the person attempting to decompose the project.
+For example, one can argue that images in Flickr.com are harder to decompose than those in OpenClipart.org, which provides the source vectors, or Aviary.com which provides the bitmap images that were used to create an image.
+The same happens with software applications that provide the source code in contrast with thost that only provide the final compiled executable.
+But even if the source is provided, there are some cases where projects are ``impenetrable'' due to their complexity or a missmatch between the expertise of the person trying to decompose a project and the complexity of the project. 
+For example, for a novice programmer having access to the source code of the Linux kernel might not allow for easy decomposability.
+
+In Scratch, all the sources of a project are provided so the decomposablity of a project depends, among other things, more on how interconnected its different components are. 
+For example, sometimes sprites ``broadcast'' messages back and forth making their decomposablity much harder than those that are self-contained.
+Also, some creators add instructions to their projects explaining how they can be broken apart, while others obfuscate their code to prevent remixing.
+
+\subsubsection{Proposed Work}
+I will first do a manual analysis of a sample projects to observe patterns of decomposability. 
+Using the findings of this analysis I will come up with mechanisms to automate the evaluation of decomposability. 
+For example, it is possible that a decomposability metric could depend on the use of particular blocks (the ``broadcast'' block could reduce its ranking, while comments in the code would increase it), explicit obfuscation or matching between the average expertise level of community members and the expertise required to understand a project.
+
+I will also look at remixes to analyze how different they are from their original project. 
+The assumption would be that ``impenetrable'' projects would be correlated with no remixing or to superficial remixes, such as slights changes in the images,
+while highly decomposable projects are associated with significant differences betweent the remix and the original.
+
+I will also analyze in detail the practices of code obfuscation and the strategies people use to discourage decomposability of their projects.
 
 \subsection{Attributability}
 % Experiments with automatic vs credit. Responses. Results. Previous work. Future work:
