@@ -22,9 +22,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.85297159"
-     inkscape:cx="494.81284"
-     inkscape:cy="609.07653"
+     inkscape:zoom="0.301571"
+     inkscape:cx="1231.5955"
+     inkscape:cy="855.42487"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,16 +34,7 @@
      inkscape:window-y="21"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true">
-    <sodipodi:guide
-       orientation="1,0"
-       position="281.00044,440.63343"
-       id="guide7099" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="281.00044,378.67615"
-       id="guide7858" />
-  </sodipodi:namedview>
+     inkscape:guide-bbox="true" />
   <defs
      id="defs4">
     <marker
@@ -132,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -142,20 +133,25 @@
      id="layer1"
      style="display:inline">
     <g
-       id="g8441">
+       style="display:inline"
+       id="g6526-6"
+       transform="matrix(0.94062802,0,0,0.94062802,59.963769,-137.13453)" />
+    <g
+       id="g3209"
+       transform="translate(-20.7742,3.6573829e-7)">
       <flowRoot
-         transform="matrix(0.94062802,0,0,0.94062802,609.09053,41.125379)"
+         transform="matrix(0.94062802,0,0,0.94062802,578.60886,25.884543)"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
          id="flowRoot3944"
          xml:space="preserve"><flowRegion
            id="flowRegion3946"><rect
              y="633.78021"
              x="38.687122"
-             height="38.052906"
-             width="98.937553"
+             height="87.315849"
+             width="138.82144"
              id="rect3948" /></flowRegion><flowPara
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:UnDotum;-inkscape-font-specification:UnDotum"
-           id="flowPara3950">sociability</flowPara></flowRoot>      <flowRoot
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           id="flowPara3950">number of people</flowPara></flowRoot>      <flowRoot
          transform="matrix(0.94062802,0,0,0.94062802,532.58091,60.731439)"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
          id="flowRoot3944-5"
@@ -180,7 +176,7 @@
              id="rect3948-0" /></flowRegion><flowPara
            id="flowPara4044"
            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:-1.02999997px;font-family:UnDotum;-inkscape-font-specification:UnDotum">individual</flowPara></flowRoot>      <flowRoot
-         transform="matrix(0.94062802,0,0,0.94062802,28.256647,-448.30813)"
+         transform="matrix(0.94062802,0,0,0.94062802,44.256647,-446.30813)"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
          id="flowRoot3944-8-2-4-4"
          xml:space="preserve"><flowRegion
@@ -191,7 +187,7 @@
              width="168.93756"
              id="rect3948-5-6-9-5" /></flowRegion><flowPara
            id="flowPara5050-5"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:UnDotum;-inkscape-font-specification:UnDotum Bold">derivativeness</flowPara></flowRoot>      <g
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:UnDotum;-inkscape-font-specification:UnDotum Bold">similarity</flowPara></flowRoot>      <g
          transform="matrix(0.94062802,0,0,0.94062802,10.30397,-156.44169)"
          style="fill:#000000"
          id="g6398">
@@ -241,16 +237,16 @@
              id="flowPara5050-52">idea</flowPara></flowRoot>      </g>
       <g
          transform="matrix(1.0564649,0,0,0.94062802,-15.34739,-146.91667)"
-         style="opacity:0.93999999;fill:#b3b3b3"
+         style="opacity:0.93999999;fill:#808080"
          id="g6388">
         <path
-           style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none"
            d="m 599.25357,834.7143 0,8.60974 -473.54606,0 0,6.47677 473.54606,0 0,8.68758 20.08427,-11.87926 z"
            id="rect6361"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cccccccc" />
         <path
-           style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
+           style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
            d="m 115.8802,372.24654 8.60974,0 0,477.07997 6.47677,0 0,-477.07997 8.68758,0 -11.87926,-20.23415 z"
            id="rect6361-4"
            inkscape:connector-curvature="0"
@@ -270,53 +266,53 @@
            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:-1.02999997px;font-family:UnDotum;-inkscape-font-specification:UnDotum"
            id="flowPara3950-9-2">group</flowPara></flowRoot>      <path
          transform="matrix(1.1013514,0,0,1.1013514,-24.785746,-50.449297)"
-         d="m 244.5527,559.11182 a 51.397514,61.345421 0 1 1 -102.79503,0 51.397514,61.345421 0 1 1 102.79503,0 z"
+         d="m 244.5527,559.11182 c 0,33.88014 -23.01145,61.34542 -51.39752,61.34542 -28.38606,0 -51.39751,-27.46528 -51.39751,-61.34542 0,-33.88014 23.01145,-61.34542 51.39751,-61.34542 28.38607,0 51.39752,27.46528 51.39752,61.34542 z"
          sodipodi:ry="61.345421"
          sodipodi:rx="51.397514"
          sodipodi:cy="559.11182"
          sodipodi:cx="193.15518"
          id="path7417"
-         style="opacity:0.44905658999999998;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.90797541999999998;stroke-miterlimit:4;stroke-dasharray:5.44785251999999964, 5.44785251999999964;marker-start:none;stroke-opacity:1;stroke-linecap:round;stroke-dashoffset:0"
+         style="opacity:0.44905659;fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90797544;stroke-opacity:1;marker-start:none"
          sodipodi:type="arc" />
       <path
          transform="matrix(1.2629304,0,0,0.76345861,62.800392,-54.630039)"
-         d="m 244.5527,559.11182 a 51.397514,61.345421 0 1 1 -102.79503,0 51.397514,61.345421 0 1 1 102.79503,0 z"
+         d="m 244.5527,559.11182 c 0,33.88014 -23.01145,61.34542 -51.39752,61.34542 -28.38606,0 -51.39751,-27.46528 -51.39751,-61.34542 0,-33.88014 23.01145,-61.34542 51.39751,-61.34542 28.38607,0 51.39752,27.46528 51.39752,61.34542 z"
          sodipodi:ry="61.345421"
          sodipodi:rx="51.397514"
          sodipodi:cy="559.11182"
          sodipodi:cx="193.15518"
          id="path7417-6"
-         style="opacity:0.44905658999999998;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.90797543999999997;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.44785251999999964, 5.44785251999999964;stroke-dashoffset:0;marker-start:none;display:inline"
+         style="opacity:0.44905659;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90797544;stroke-opacity:1;marker-start:none;display:inline"
          sodipodi:type="arc" />
       <path
          transform="matrix(1.2125763,0,0,1.9138673,331.37823,-700.81645)"
-         d="m 244.5527,559.11182 a 51.397514,61.345421 0 1 1 -102.79503,0 51.397514,61.345421 0 1 1 102.79503,0 z"
+         d="m 244.5527,559.11182 c 0,33.88014 -23.01145,61.34542 -51.39752,61.34542 -28.38606,0 -51.39751,-27.46528 -51.39751,-61.34542 0,-33.88014 23.01145,-61.34542 51.39751,-61.34542 28.38607,0 51.39752,27.46528 51.39752,61.34542 z"
          sodipodi:ry="61.345421"
          sodipodi:rx="51.397514"
          sodipodi:cy="559.11182"
          sodipodi:cx="193.15518"
-         style="opacity:0.44905658999999998;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.90797543999999997;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.44785251999999964, 5.44785251999999964;stroke-dashoffset:0;marker-start:none;display:inline"
+         style="opacity:0.44905659;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90797544;stroke-opacity:1;marker-start:none;display:inline"
          sodipodi:type="arc"
          id="path8482" />
       <path
          transform="matrix(1.0961898,0,0,1.3171701,228.66355,-294.13973)"
-         d="m 244.5527,559.11182 a 51.397514,61.345421 0 1 1 -102.79503,0 51.397514,61.345421 0 1 1 102.79503,0 z"
+         d="m 244.5527,559.11182 c 0,33.88014 -23.01145,61.34542 -51.39752,61.34542 -28.38606,0 -51.39751,-27.46528 -51.39751,-61.34542 0,-33.88014 23.01145,-61.34542 51.39751,-61.34542 28.38607,0 51.39752,27.46528 51.39752,61.34542 z"
          sodipodi:ry="61.345421"
          sodipodi:rx="51.397514"
          sodipodi:cy="559.11182"
          sodipodi:cx="193.15518"
          id="path7417-6-1-2"
-         style="opacity:0.44905658999999998;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.90797543999999997;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.44785251999999964, 5.44785251999999964;stroke-dashoffset:0;marker-start:none;display:inline"
+         style="opacity:0.44905659;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90797544;stroke-opacity:1;marker-start:none;display:inline"
          sodipodi:type="arc" />
       <path
          transform="matrix(1.4954576,0,0,0.64016293,31.550098,-104.3366)"
-         d="m 244.5527,559.11182 a 51.397514,61.345421 0 1 1 -102.79503,0 51.397514,61.345421 0 1 1 102.79503,0 z"
+         d="m 244.5527,559.11182 c 0,33.88014 -23.01145,61.34542 -51.39752,61.34542 -28.38606,0 -51.39751,-27.46528 -51.39751,-61.34542 0,-33.88014 23.01145,-61.34542 51.39751,-61.34542 28.38607,0 51.39752,27.46528 51.39752,61.34542 z"
          sodipodi:ry="61.345421"
          sodipodi:rx="51.397514"
          sodipodi:cy="559.11182"
          sodipodi:cx="193.15518"
          id="path7417-6-1"
-         style="opacity:0.44905658999999998;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.90797543999999997;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.44785251999999964, 5.44785251999999964;stroke-dashoffset:0;marker-start:none;display:inline"
+         style="opacity:0.44905659;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90797544;stroke-opacity:1;marker-start:none;display:inline"
          sodipodi:type="arc" />
       <flowRoot
          transform="matrix(0.94062802,0,0,0.94062802,108.41274,-39.355501)"
@@ -333,13 +329,13 @@
            style="font-size:19.13615036px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644%;letter-spacing:-1.01999998px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
            id="flowPara3950-9-4-2-2-2">self-remixing</flowPara></flowRoot>      <path
          transform="matrix(1.2812119,0,0,1.0275731,67.14931,-84.730122)"
-         d="m 244.5527,559.11182 a 51.397514,61.345421 0 1 1 -102.79503,0 51.397514,61.345421 0 1 1 102.79503,0 z"
+         d="m 244.5527,559.11182 c 0,33.88014 -23.01145,61.34542 -51.39752,61.34542 -28.38606,0 -51.39751,-27.46528 -51.39751,-61.34542 0,-33.88014 23.01145,-61.34542 51.39751,-61.34542 28.38607,0 51.39752,27.46528 51.39752,61.34542 z"
          sodipodi:ry="61.345421"
          sodipodi:rx="51.397514"
          sodipodi:cy="559.11182"
          sodipodi:cx="193.15518"
          id="path7417-5"
-         style="opacity:0.44905658999999998;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.90797543999999997;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.44785251999999964, 5.44785251999999964;stroke-dashoffset:0;marker-start:none;display:inline"
+         style="opacity:0.44905659;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.90797544;stroke-opacity:1;marker-start:none;display:inline"
          sodipodi:type="arc" />
       <flowRoot
          transform="matrix(0.94062802,0,0,0.94062802,235.38523,-126.6004)"
@@ -353,12 +349,8 @@
              height="67.96582"
              width="90.323593"
              id="rect3948-4-8-7" /></flowRegion><flowPara
-           style="font-size:19.13615119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644000000705%;letter-spacing:-1.01999997999999992px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
-           id="flowPara3950-9-4-2">modifying existing creations</flowPara></flowRoot>      <g
-         transform="matrix(0.94062802,0,0,0.94062802,59.963769,-137.13453)"
-         id="g6526-6"
-         style="display:inline" />
-      <flowRoot
+           style="font-size:19.13615036px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644%;letter-spacing:-1.01999998px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           id="flowPara3950-9-4-2">modifying existing creations</flowPara></flowRoot>      <flowRoot
          transform="matrix(0.94062802,0,0,0.94062802,381.34551,-169.51482)"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
          id="flowRoot3944-5-2-5-7"
@@ -370,7 +362,7 @@
              height="48.850002"
              width="102.06268"
              id="rect3948-4-8-7-03" /></flowRegion><flowPara
-           style="font-size:19.13615119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:87.00000644000000705%;letter-spacing:-1.01999997999999992px;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum;text-anchor:middle;text-align:center"
+           style="font-size:19.13615036px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644%;letter-spacing:-1.01999998px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
            id="flowPara7095">collaborating in groups</flowPara></flowRoot>      <flowRoot
          transform="matrix(0.94062802,0,0,0.94062802,222.19668,-238.57517)"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
@@ -396,7 +388,7 @@
              height="67.96582"
              width="90.323593"
              id="rect3948-4-8-7-4-6" /></flowRegion><flowPara
-           style="font-size:19.13615119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644000000705%;letter-spacing:-1.01999997999999992px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           style="font-size:19.13615036px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644%;letter-spacing:-1.01999998px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
            id="flowPara3950-9-4-2-9-1">inspired by others' creations</flowPara></flowRoot>      <flowRoot
          transform="matrix(0.94062802,0,0,0.94062802,486.77225,-255.07116)"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
@@ -409,7 +401,7 @@
              height="67.96582"
              width="90.323593"
              id="rect3948-4-8-7-4-6-1" /></flowRegion><flowPara
-           style="font-size:19.13615119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644000000705%;letter-spacing:-1.01999997999999992px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
+           style="font-size:19.13615036px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:87.00000644%;letter-spacing:-1.01999998px;text-anchor:middle;fill:#000000;font-family:UnDotum;-inkscape-font-specification:UnDotum"
            id="flowPara3950-9-4-2-9-1-0">crowd remixing</flowPara></flowRoot>    </g>
   </g>
 </svg>
