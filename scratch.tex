@@ -40,17 +40,19 @@ Supporting creators' \emph{imagination} by giving access to a pool of inspiratio
 \section{Sociotechnical Infrastructure}
 The Scratch website platform, called ScratchR, is broadly composed of the following components: 
 
-1. A repository of projects and metadata. Projects can be downloaded by anyone, modified and re-uploaded to the website as a remix. Each project has its web page where it is displayed and where people can interact with it and other people. Projects themselves are created in Scratch, a desktop application people download and install on their computers. Projects are created by putting together images, sounds and visual programming blocks. Projects are organized in sprites (e.g. a character in a game). Each sprite has a set of ``costumes'' or images that represent the different its different visual states, for example, a sprite of a bird flying could have multiple costumes, each one representing the different positions of the wings. Sprites can also have sounds associated to them, these sounds can be either recorded with the microphone or imported from the hard creator's hard drive. Finally, sprites' behavior is controlled by ``scripts'' which are stacks of visual programming blocks. 
+\begin{enumerate}
+\item A repository of projects and metadata. Projects can be downloaded by anyone, modified and re-uploaded to the website as a remix. Each project has its web page where it is displayed and where people can interact with it and other people. Projects themselves are created in Scratch, a desktop application people download and install on their computers. Projects are created by putting together images, sounds and visual programming blocks. Projects are organized in sprites (e.g. a character in a game). Each sprite has a set of ``costumes'' or images that represent the different its different visual states, for example, a sprite of a bird flying could have multiple costumes, each one representing the different positions of the wings. Sprites can also have sounds associated to them, these sounds can be either recorded with the microphone or imported from the hard creator's hard drive. Finally, sprites' behavior is controlled by ``scripts'' which are stacks of visual programming blocks. 
 
-2. A social network consisting of profile pages and unidirectional friendship connections. Profile pages list the friends, projects and ``favorited'' projects for each user with his or her avatar image and the Country of origin (all self-reported data).
+\item A social network consisting of profile pages and unidirectional friendship connections. Profile pages list the friends, projects and ``favorited'' projects for each user with his or her avatar image and the Country of origin (all self-reported data).
 
-3. Social features for interacting with people's creation such as commenting, tagging, ``loving'', ``favoriting''.
+\item Social features for interacting with people's creation such as commenting, tagging, ``loving'', ``favoriting''.
 
-4. Galleries, which are pages where people can group projects and talk about them. It is important to note that galleries have been repurposed by the community as group spaces where people collaborate to create projects or use it as a space to talk to one another or play Role Playing Games.
+\item Galleries, which are pages where people can group projects and talk about them. It is important to note that galleries have been repurposed by the community as group spaces where people collaborate to create projects or use it as a space to talk to one another or play Role Playing Games.
 
-5. Discussion forums where community members help one another with technical problems, find collaborators and talk about non-Scratch related activities that foster a sense of community on the website.
+\item Discussion forums where community members help one another with technical problems, find collaborators and talk about non-Scratch related activities that foster a sense of community on the website.
 
-6. External services supported by APIs such as a website where people can link projects or a Wiki where people can document their experiences with Scratch and the community.
+\item External services supported by APIs such as a website where people can link projects or a Wiki where people can document their experiences with Scratch and the community.
+\end{enumerate}
 
 The website runs on a hybrid model for moderation that combines user-driven moderation through flagging and appointed moderators working in parallel with a full-time staff member and other part-time ones that review the flags and ensure that the social dynamics are kept as civil as possible. 
 This model has allowed for scaling the community management at a relatively low cost, however, much of the architecture and software development during the three years has been put into mechanisms for preventing antisocial behavior.
@@ -64,4 +66,4 @@ To handle this level of activity, ScratchR, the website's underlying platform, u
 ScratchR runs on a completely Free and Open Source software stack that includes Apache for its web server and MySQL for its database running on CentOS Linux. 
 ScratchR is written using a PHP-based framework called CakePHP.
 Additionally, the ScratchR supports external  web applications such as a discussion forum, a user-driven Wiki, a statistics visualization website, a Scratch sprites sharing website, and few other websites that provide additional support to community members. 
-These extra websites are supported through an API (Application Program Interface) that has allowed scalability.
+These extra websites are supported through an API\footnote{API stands for Application Program Interface. In ScratchR, they are a set of web-accesible functions accessible via web that let people retrieve and submit data such as login authentication and information about projects.} that has allowed scalability.
