@@ -3,7 +3,7 @@ I plan to study the sociotechnical architecture of the Scratch Online Community 
 1) granularity of the remixable components, 
 2) modularity of the remixable components, 
 3) decomposability of finished projects, 
-4) attributability mechanisms and 
+4) attributability mechanisms, and 
 5) openness to remix across systems.
 
 In this proposal I briefly define each structural attribute using one or two examples, and I explain how I am planning to go about studying it.
@@ -22,17 +22,17 @@ I plan to analyze these structural properties of the system using varied approac
 \subsection{Granularity}
 Granularity is the size of project's modules \citet{benkler_coases_2002}. 
 In Scratch, projects have several levels of granularity.
-Projects are made of ``sprites'', for example, characters in a game or elements in the user interface elements of an interact simulations.
+Projects are made of ``sprites'' such as characters in a game or elements in the user interface.
 Each sprite can have ``scripts'' or stacks of programming blocks that control the sprite's behavior such as its position on the screen, its look, sound and interaction with other sprites and the user (by mouse, keyboard, or other sensors).
 Each sprite also has one or more costumes or images that represent the various visual states of a sprite.
-Sprites can also have sounds that are played programmatically, for example, a character in a game could make a sound each time it jumps.
+Sprites can also have sounds that are played programmatically; for example, a character in a game could make a sound each time it jumps.
 
 \subsubsection{Proposed Work}
 The Scratch Online Community, by default, only allows sharing at the coarsest degree of granularity: only projects can be shared. 
 I plan to analyze the implications of this design decision and the ways  people get around the limitations of the architecture.
 
 I have anecdotal evidence that Scratch participants get around the granularity limitations by sharing full projects with the sole intention of sharing a single sprite, script, image or sound.
-This need for finer granularity often stems from a desire to engage in sharing practices that the original design did not anticipate. For example, I have documented before the existence of ``coloring contests'' \citep{nickerson_appropriation_2011} where the Scratch community remix to add color to an image, or as part of group collaboration.
+This need for finer granularity often stems from a desire to engage in sharing practices that the original design did not anticipate. For example, in previous work \citep{nickerson_appropriation_2011}, I have documented the existence of ``coloring contests'' where someone creates a project inviting others to add color to an image and then several other people do so by remixing the original project.
 I plan to look at these practices in more detail to understand how a finer granularity mechanism would help support various types of creative and collaborative learning practices beyond the existing research that suggests that finer granularity is correlated with the number of people engaged in cooperative activities.
 
 To analyze the effect of explicitly supporting finer degree of granularity through a natural experiment, I plan to analyze the adoption of ``Scratch Resources'' \footnote{Available at http://resources.scratchr.org}, a website created by members of the Scratch community to support sharing sprites, images and sounds. 
@@ -60,8 +60,8 @@ One of the questions I am interested in exploring is what makes some components 
 For example, an image generated programmatically might be harder to integrate than one in bitmap format. 
 A module that represents a cultural icon, such as Mario\footnote{Mario is a character in a popular video game called Mario Bros. from Nintendo Inc.}, is perhaps easier to integrate into other projects than an image of a less well-known character.
 However, there are situations when new subcultural icons emerge within the Scratch community.
-For example, a character called Maki-Tak created by a community member from New Zealand started a genre of projects called Takis.
-These projects use adaptations of that lizard. 
+For example, a community member from New Zealand created a character called Maki-Tak. 
+Maki-Tak became so popular in the community that other people started to create projects that included Maki-Tak itself of  that character or other characters inspired by it, often called Takis.
 % Other examples: Mr Happy Man
 Situations exist where some components are remixed despite their internal complexity, which might indicate that these could be built in a way that their internal complexity is hidden and remixing them is easy. 
 For example there is a sprite created by an advanced Scratch user that represented a physics simulation of a string. 
@@ -79,7 +79,7 @@ Besides these sample components, there are thousands of components created by co
 
 The type of questions I try to answer are:
 1. What technical or cultural attributes are linked with component modularity? 
-2. Are modular components used more often by newcomers and do they provide scaffolding in their learning of Scratch programming?
+2. Are modular components used more often by newcomers, and do they provide scaffolding in their learning of Scratch programming?
 3. Are community-generated components more often created by advanced users?
 
 \subsection{Decomposability}
@@ -96,7 +96,7 @@ For example, sometimes sprites ``broadcast'' messages back and forth making thei
 Also some creators add instructions to their projects explaining how they can be broken apart, while others obfuscate their code to prevent remixing.
 
 \subsubsection{Proposed Work}
-I first do a manual analysis of a sample projects to observe patterns of decomposability. 
+I first do a manual analysis of a sample of projects to observe patterns of decomposability. 
 Using the findings of this analysis I devise mechanisms to automate the evaluation of decomposability. 
 For example, a decomposability metric could depend on the use of particular blocks (the ``broadcast'' block could reduce its ranking, while comments in the code would increase it), explicit obfuscation or matching between the typical expertise level of community members and the expertise required to understand a project.
 
@@ -107,8 +107,8 @@ I also analyze the practices of code obfuscation and the strategies people use t
 
 \subsection{Attributability}
 Creators often want to get credit for their work. 
-For example, the Creative Commons license originally had attribution as one of the options of their licenses but after analyzing several years of usage of the licenses they found that few people waived the attribution clause. 
-This led them to include attribution by default in all their licenses (and create a separate license for completely public domain works) \citep{brown_announcing_2004}
+For example, the Creative Commons license originally had attribution as one of the options of their licenses, but after analyzing several years of usage of the licenses they found that few people waived the attribution clause. 
+This led them to include attribution by default in all their licenses (and create a separate license for completely public domain works) \citep{brown_announcing_2004}.
 To further our understanding of attribution when designing a remixing system it is important to know the role attribution plays in supporting cooperative behavior among members of a remixing online community.
 
 In Scratch, we have run some design experiments playing with attribution. 
