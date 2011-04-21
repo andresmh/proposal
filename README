@@ -1,1 +1,7 @@
-Work in progress of my dissertation proposal
+Dissertation Proposal
+
+Notes:
+Originally created in the MIT ML layout but it turned out to be too long so I changed it so it uses the ACM SIGCHI layout which made it three times smaller. If the MIT ML layout is needed the following needs to be executed.
+
+For the MIT ML format use main.tex
+For the ACM SIGCHI two-column format use acm-main.tex
