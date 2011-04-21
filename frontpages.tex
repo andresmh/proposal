@@ -1,0 +1,58 @@
+% -*- Mode:TeX -*-
+% TODO Try using ACM SIGCHI two-column layout
+% TODO Need to make sure verb tense is consistent. Sometimes I use future and sometimes present.
+
+%% The documentclass options along with the pagestyle can be used to generate
+%% a technical report, a draft copy, or a regular thesis.  You may need to
+%% re-specify the pagestyle after you \include cover.tex.  For more
+%% information, see the first few lines of mitthesis.cls.
+
+\documentclass[11pt,twoside,singlespace]{mitthesis_mas}
+\copyrightnotice{This work is licensed under a Creative Commons Attribution 3.0 Unported License}
+\usepackage{graphicx}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+\pagestyle{plain}
+
+% add bibliographic stuff 
+\usepackage[round]{natbib}
+\def\citepos#1{\citeauthor{#1}'s (\citeyear{#1})}
+\def\citespos#1{\citeauthor{#1}' (\citeyear{#1})}
+
+
+%% This bit allows you to either specify only the files which you wish to
+%% process, or `all' to process all files which you \include.
+%% Krishna Sethuraman (1990).
+
+% andresmh: commenting this out will ask you to manually enter which files you need to compile
+%\typein [\files]{main}
+%\ifx\files\blank \typeout{Including all files.} \else \typeout{Including only \files.} \includeonly{\files} \fi
+
+\begin{document}
+%%Formatting commands
+\setlength{\parindent}{0pt} %Full block style
+\setlength{\parskip}{11pt} %Assumes 11pt type
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+%%Prefatory material
+\bibliographystyle{apalike}
+\include{cover}
+\include{abstract}
+\include{readers}
+\pagestyle{plain}
+%%Main body (chapters)
+\setlength{\parskip}{0pt} %Assumes 11pt type
+\begin{spacing}{1}
+%\include{contents}
+\end{spacing}
+\setlength{\parskip}{11pt plus3pt minus3pt} %Assumes 11pt type
+%Other chapters go here
+%%Appendices
+%\appendix
+%Appendices go here. Structure is same as for other chapters
+%%The bibliography
+%\include{biblio}
+%\bibliography{biblio}
+\end{document}
+
+%end file
