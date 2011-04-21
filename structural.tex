@@ -1,4 +1,4 @@
-\section{Structure of a Remixing System} 
+\subsection{Structure of a Remixing System} 
 I plan to study the sociotechnical architecture of the Scratch Online Community by examining its following structural attributes (Figure~\ref{fig:structure}):
 1) granularity of the remixable components, 
 2) modularity of the remixable components, 
@@ -19,7 +19,7 @@ I plan to analyze these structural properties of the system using varied approac
 \label{fig:structure}
 \end{figure}
 
-\subsection{Granularity}
+\subsubsection{Granularity}
 Granularity is the size of project's modules \citep{benkler_coases_2002}. 
 In Scratch, projects have several levels of granularity.
 Projects are made of ``sprites'' such as characters in a game or elements in the user interface.
@@ -27,7 +27,7 @@ Each sprite can have ``scripts'' or stacks of programming blocks that control th
 Each sprite also has one or more costumes or images that represent the various visual states of a sprite.
 Sprites can also have sounds that are played programmatically; for example, a character in a game could make a sound each time it jumps.
 
-\subsubsection{Proposed Work}
+\emph{Proposed Work.}
 The Scratch Online Community, by default, only allows sharing at the coarsest degree of granularity: only projects can be shared. 
 I plan to analyze the implications of this design decision and the ways  people get around the limitations of the architecture.
 
@@ -46,7 +46,7 @@ What role does granularity play in the likelihood of a project being remixed con
 How do various levels of granularity affect the type and quality of remixes?
 How do various levels of granularity support various levels of familiarity with Scratch -- are novices more likely to rely on coarser granularity when engaging in remixing as a scaffolding mechanism?
 
-\subsection{Modularity}
+\subsubsection{Modularity}
 \citet{benkler_coases_2002} defines modularity as the ``property of a project referring to the extent to which it can be broken down into smaller components, or modules, that can be independently and asynchronously produced before they are assembled into a whole.''
 For this work, I separate two aspects of modularity:
 1. The ease of \emph{integrating} such components into new creations or remixes.
@@ -54,7 +54,7 @@ For this work, I separate two aspects of modularity:
 In this section I plan to analyze the term ``modularity'' by focusing on the first aspect.
 In the next section, I focus on the second aspect under the term ``decomposability''.
 
-\subsubsection{Proposed Work}
+\emph{Proposed Work.}
 Some components or projects can be more easily integrated into new projects. 
 One of the questions I am interested in exploring is what makes some components more modular than others.
 
@@ -84,7 +84,7 @@ The type of questions I will to answer are:
 2. Are modular components used more often by newcomers, and do they provide scaffolding in their learning of Scratch programming?
 3. Are community-generated components more often created by advanced users?
 
-\subsection{Decomposability}
+\subsubsection{Decomposability}
 Building on the concept of modularity examined before, in this section I examine decomposability as the ease of decomposing a compiled project.
 Decomposability is the ease of breaking something apart for remixing.
 Therefore decomposability depends on the internal complexity of a project, which in itself depends on the expertise of the person attempting to decompose the project.
@@ -97,7 +97,7 @@ In Scratch, all the sources of a project are provided so the decomposability of 
 For example, sometimes sprites ``broadcast'' messages back and forth making their decomposability much harder than those that are self-contained.
 Also some creators add instructions to their projects explaining how they can be broken apart, while others obfuscate their code to prevent remixing.
 
-\subsubsection{Proposed Work}
+\emph{Proposed Work.}
 I first do a manual analysis of a sample of projects to observe patterns of decomposability. 
 Using the findings of this analysis I devise mechanisms to automate the evaluation of decomposability. 
 For example, a decomposability metric could depend on the use of particular blocks (the ``broadcast'' block could reduce its ranking, while comments in the code would increase it), explicit obfuscation or matching between the typical expertise level of community members and the expertise required to understand a project.
@@ -107,7 +107,7 @@ The assumption would be that ``impenetrable'' projects would be correlated with 
 
 I also analyze the practices of code obfuscation and the strategies people use to discourage decomposability of their projects.
 
-\subsection{Attributability}
+\subsubsection{Attributability}
 Creators often want to get credit for their work. 
 For example, the Creative Commons license originally had attribution as one of the options of their licenses, but after analyzing several years of usage of the licenses they found that few people waived the attribution clause. 
 This led them to include attribution by default in all their licenses (and create a separate license for completely public domain works) \citep{brown_announcing_2004}.
@@ -119,7 +119,7 @@ We also have anecdotal evidence that people, who objected to remixing of their p
 To address this, I added a mechanism that would automatically give credit to the creator of the original project whenever a remix was uploaded (for example, ``Shared by John, based on Mary's project'').
 Using that design intervention as a natural experiment, we found evidence that suggests people not only want to get credit but that they prefer the credit given by another person over the automatic attribution given by the system \cite{monroy-hernandez_computers_2011}. 
 
-\subsubsection{Proposed Work}
+\emph{Proposed Work.}
 I plan to extend this work with additional experiments.
 For example, one of the common complaints against remixing is that the textual description of projects often gets copied from an original project onto its remixes.
 This often gives the wrong impression that those notes were by the remixer rather than by the original creator.
@@ -131,7 +131,7 @@ This will serve as a natural experiment to test the additional value of not only
 % - Creator endorsed attribution.
 % - Diff
 
-\subsection{Openness}
+\subsubsection{Openness}
 In this section I focus on analyzing a system's openness from the perspective of its norms and interactions with other systems.
 The Scratch Online Community allows any of its members to download and remix any project, in that sense Scratch is more open than similar websites such as Kongregate.com or Newgrounds.com, which do not provide either the license, the environment, nor the technical features to freely open its content. 
 The ethos of openness is present in Scratch through its terms of use, the license used by all projects shared, and the community moderation styled enforced by administrators.
@@ -141,7 +141,7 @@ For example, there are a some members of the community, who even after discussio
 Additionally, there are other members of the community who encounter conflicts when remixing content from other online spaces that are not compatible with Scratch's openness. 
 These conflicts often involve art-sharing websites like DeviantArt.com, from where Scratch creators sometimes get images for their projects.
 
-\subsubsection{Proposed Work}
+\emph{Proposed Work.}
 I plan to investigate the ways young people in Scratch embrace, understand and reject the way openness is interpreted in Scratch.
 I try to examine whether young people see a value in openness and how a system is or is not able to surface these values through sociotechnical design.
 I present a set of case studies that show the range of ways people embrace and reject openness and how the social and technical design of the website influence them. 

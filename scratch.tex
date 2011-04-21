@@ -1,4 +1,4 @@
-\chapter{The Scratch Online Community}
+\section{The Scratch Online Community}
 
 %TODO: once settled with layout, make sure it does not use a full page just for this image
 \begin{figure}
@@ -28,7 +28,7 @@ Was it the design of the space or the work of users to create the culture?
 To answer some of these questions, I primarily rely on participant observation data, experiences collected during the three years and I support these arguments with descriptive statistics and case studies.
 
 
-\section{Motivations}
+\subsection{Motivations}
 
 From its start \citep{monroy-hernandez_scratchr:_2007,monroy-hernandez_empowering_2008}, I set the goal for the Scratch Online Community as to give creators access to 
 1) a \emph{network of peers} that functions as an audience and as potential collaborators and,
@@ -41,7 +41,7 @@ Additionally, the idea of the Scratch Online Community was conceived under the u
 Last, the Scratch Online Community was motivated to support the various iterative stages of the creative process \citep{resnick_sowing_2008}, namely:
 Supporting creators' \emph{imagination} by giving access to a pool of inspirational projects and ideas; supporting \emph{creation} by allowing people to reuse and remix; supporting \emph{play} by letting people interact with others and their creations within a community; supporting \emph{sharing} by allowing people to easily upload their creations to the platform; supporting \emph{reflection} by providing a space to receive comments and discussion forums for more in-depth discussions.
 
-\section{Sociotechnical Infrastructure}
+\subsection{Sociotechnical Infrastructure}
 The Scratch website platform, called ScratchR, is broadly composed of the following components: 
 
 \begin{enumerate}
@@ -55,14 +55,14 @@ The Scratch website platform, called ScratchR, is broadly composed of the follow
 
 \item Discussion forums where community members help one another with technical problems, find collaborators and talk about non-Scratch related activities that foster a sense of community on the website.
 
-\item External services supported by APIs such as a website where people can link projects or a Wiki where people can document their experiences with Scratch and the community.
+\item External services supported by an API\footnote{API stands for Application Program Interface. In ScratchR, they are a set of web-accessible functions that let people retrieve and submit data such as login authentication and information about projects.} such as a website where people can link projects or a Wiki where people can document their experiences with Scratch and the community.
 \end{enumerate}
 
 The website runs on a hybrid model for moderation that combines user-driven moderation through flagging and appointed moderators working in parallel with a full-time staff member and other part-time ones that review the flags and ensure that the social dynamics are kept as civil as possible. 
 This model has allowed for scaling the community management at a relatively low cost, however, much of the architecture and software development during the three years has been put into mechanisms for preventing antisocial behavior.
 
 Three years after its official release, the Scratch Online Community website I developed, handles more than ten million page views and six hundred-thousand people monthly.
-This web traffic is more than half the page views of websites like newsweek.com \footnote{04/2011 data from http://www.quantcast.com/newsweek.com} and one-third of a website like economist.com \footnote{04/2011 data from http://http://www.quantcast.com/economist.com}.
+This web traffic is more than half the page views of websites like newsweek.com\footnote{04/2011 data from http://www.quantcast.com/newsweek.com}.
 As of April of 2011, more than 1.7 million projects have been uploaded at an average of 1 MB per project. 
 Every second, the website receives up to 180 requests and it transfers 4MB.
 
@@ -70,4 +70,4 @@ To handle this level of activity, ScratchR, the website's underlying platform, u
 ScratchR runs on a completely Free and Open Source software stack that includes Apache for its web server and MySQL for its database running on CentOS Linux. 
 ScratchR is written using a PHP-based framework called CakePHP.
 Additionally, ScratchR supports external  web applications such as a discussion forum, a user-driven Wiki, a statistics visualization website, a Scratch sprites sharing website, and a few other websites that provide additional support to community members. 
-These extra websites are supported through an API\footnote{API stands for Application Program Interface. In ScratchR, they are a set of web-accessible functions that let people retrieve and submit data such as login authentication and information about projects.} that has allowed scalability.
+These extra websites are supported through an API that has allowed scalability.
